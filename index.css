@@ -94,7 +94,7 @@ button:hover {
     height: 160px; /* Initial height */
   }
   100% {
-    top: -120px; /* Increased to reveal more content */
+    top: -150px; /* Increased to reveal more content */
     height: 200px; /* Increased height only below the text */
   }
 }
@@ -105,7 +105,7 @@ button:hover {
 
 @keyframes closePaper {
   0% {
-    top: -120px; /* Adjusted to match the open animation */
+    top: -150px; /* Adjusted to match the open animation */
     height: 200px; /* Height adjusted for closing */
   }
   100% {
